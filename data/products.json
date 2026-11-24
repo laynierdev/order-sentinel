@@ -1,0 +1,202 @@
+[
+  {
+    "id": "PRD-001",
+    "name": "Oxycodone HCl 10 mg tablets",
+    "ndc": "80845-3159-58",
+    "schedule": "II",
+    "unit": "bottle of 100",
+    "unitCost": 48.5
+  },
+  {
+    "id": "PRD-002",
+    "name": "Oxycodone HCl 5 mg tablets",
+    "ndc": "43890-1066-92",
+    "schedule": "II",
+    "unit": "bottle of 100",
+    "unitCost": 31.2
+  },
+  {
+    "id": "PRD-003",
+    "name": "Hydrocodone Bitartrate/Acetaminophen 10/325 mg tablets",
+    "ndc": "20477-9836-76",
+    "schedule": "II",
+    "unit": "bottle of 100",
+    "unitCost": 22.75
+  },
+  {
+    "id": "PRD-004",
+    "name": "Morphine Sulfate ER 30 mg tablets",
+    "ndc": "40382-9660-04",
+    "schedule": "II",
+    "unit": "bottle of 100",
+    "unitCost": 64.9
+  },
+  {
+    "id": "PRD-005",
+    "name": "Hydromorphone HCl 2 mg tablets",
+    "ndc": "45540-4579-31",
+    "schedule": "II",
+    "unit": "bottle of 100",
+    "unitCost": 39.4
+  },
+  {
+    "id": "PRD-006",
+    "name": "Fentanyl 25 mcg/hr transdermal patches",
+    "ndc": "75038-9635-69",
+    "schedule": "II",
+    "unit": "box of 5",
+    "unitCost": 88
+  },
+  {
+    "id": "PRD-007",
+    "name": "Methylphenidate HCl 10 mg tablets",
+    "ndc": "39669-5394-21",
+    "schedule": "II",
+    "unit": "bottle of 100",
+    "unitCost": 27.6
+  },
+  {
+    "id": "PRD-008",
+    "name": "Amphetamine/Dextroamphetamine 20 mg tablets",
+    "ndc": "35229-9917-76",
+    "schedule": "II",
+    "unit": "bottle of 100",
+    "unitCost": 41.3
+  },
+  {
+    "id": "PRD-009",
+    "name": "Buprenorphine/Naloxone 8/2 mg sublingual films",
+    "ndc": "36741-2143-81",
+    "schedule": "III",
+    "unit": "box of 30",
+    "unitCost": 112
+  },
+  {
+    "id": "PRD-010",
+    "name": "Buprenorphine 8 mg sublingual tablets",
+    "ndc": "28468-2115-39",
+    "schedule": "III",
+    "unit": "bottle of 30",
+    "unitCost": 58.2
+  },
+  {
+    "id": "PRD-011",
+    "name": "Acetaminophen/Codeine 300/30 mg tablets",
+    "ndc": "40730-4125-92",
+    "schedule": "III",
+    "unit": "bottle of 100",
+    "unitCost": 14.8
+  },
+  {
+    "id": "PRD-012",
+    "name": "Testosterone Cypionate 200 mg/mL injection",
+    "ndc": "44933-1737-69",
+    "schedule": "III",
+    "unit": "10 mL vial",
+    "unitCost": 45
+  },
+  {
+    "id": "PRD-013",
+    "name": "Ketamine HCl 50 mg/mL injection",
+    "ndc": "47343-9347-97",
+    "schedule": "III",
+    "unit": "10 mL vial",
+    "unitCost": 19.9
+  },
+  {
+    "id": "PRD-014",
+    "name": "Dronabinol 5 mg capsules",
+    "ndc": "02174-9853-50",
+    "schedule": "III",
+    "unit": "bottle of 60",
+    "unitCost": 96.5
+  },
+  {
+    "id": "PRD-015",
+    "name": "Alprazolam 1 mg tablets",
+    "ndc": "17583-2093-03",
+    "schedule": "IV",
+    "unit": "bottle of 100",
+    "unitCost": 9.6
+  },
+  {
+    "id": "PRD-016",
+    "name": "Lorazepam 1 mg tablets",
+    "ndc": "70468-7511-66",
+    "schedule": "IV",
+    "unit": "bottle of 100",
+    "unitCost": 11.2
+  },
+  {
+    "id": "PRD-017",
+    "name": "Clonazepam 0.5 mg tablets",
+    "ndc": "18113-6703-54",
+    "schedule": "IV",
+    "unit": "bottle of 100",
+    "unitCost": 8.4
+  },
+  {
+    "id": "PRD-018",
+    "name": "Diazepam 10 mg tablets",
+    "ndc": "25777-1685-32",
+    "schedule": "IV",
+    "unit": "bottle of 100",
+    "unitCost": 7.9
+  },
+  {
+    "id": "PRD-019",
+    "name": "Zolpidem Tartrate 10 mg tablets",
+    "ndc": "40008-6445-32",
+    "schedule": "IV",
+    "unit": "bottle of 100",
+    "unitCost": 10.5
+  },
+  {
+    "id": "PRD-020",
+    "name": "Tramadol HCl 50 mg tablets",
+    "ndc": "87300-9127-18",
+    "schedule": "IV",
+    "unit": "bottle of 100",
+    "unitCost": 8.9
+  },
+  {
+    "id": "PRD-021",
+    "name": "Carisoprodol 350 mg tablets",
+    "ndc": "30403-0544-48",
+    "schedule": "IV",
+    "unit": "bottle of 100",
+    "unitCost": 12.3
+  },
+  {
+    "id": "PRD-022",
+    "name": "Pregabalin 75 mg capsules",
+    "ndc": "23347-5594-14",
+    "schedule": "V",
+    "unit": "bottle of 90",
+    "unitCost": 18.6
+  },
+  {
+    "id": "PRD-023",
+    "name": "Lacosamide 100 mg tablets",
+    "ndc": "32158-2111-90",
+    "schedule": "V",
+    "unit": "bottle of 60",
+    "unitCost": 74
+  },
+  {
+    "id": "PRD-024",
+    "name": "Promethazine/Codeine 6.25/10 mg per 5 mL oral solution",
+    "ndc": "74156-5652-85",
+    "schedule": "V",
+    "unit": "473 mL bottle",
+    "unitCost": 26.4
+  },
+  {
+    "id": "PRD-025",
+    "name": "Diphenoxylate/Atropine 2.5/0.025 mg tablets",
+    "ndc": "83233-7254-98",
+    "schedule": "V",
+    "unit": "bottle of 100",
+    "unitCost": 15.1
+  }
+]

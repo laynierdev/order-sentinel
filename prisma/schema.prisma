@@ -1,0 +1,90 @@
+// Demo Order Sentinel — SQLite via Prisma 7 + libSQL driver adapter.
+// All data is fictitious. Seeded from /data/*.json by prisma/seed.ts.
+
+generator client {
+  provider = "prisma-client"
+  output   = "../lib/generated/prisma"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+model Customer {
+  id             String   @id // CUS-0001
+  name           String
+  type           String // retail_pharmacy | hospital | clinic | long_term_care
+  city           String
+  state          String
+  registrationId String
+  onboardedAt    String // YYYY-MM-DD
+  isNew          Boolean
+  orders         Order[]
+}
+
+model Product {
+  id        String         @id // PRD-001
+  name      String
+  ndc       String
+  schedule  String // II | III | IV | V
+  unit      String
+  unitCost  Float
+  lines     OrderLine[]
+  inventory InventoryItem?
+}
+
+model Order {
+  id         String        @id // ORD-100001
+  customerId String
+  customer   Customer      @relation(fields: [customerId], references: [id])
+  createdAt  DateTime
+  total      Float
+  lines      OrderLine[]
+  events     ReviewEvent[]
+
+  @@index([customerId, createdAt])
+}
+
+model OrderLine {
+  id        Int     @id @default(autoincrement())
+  orderId   String
+  order     Order   @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  productId String
+  product   Product @relation(fields: [productId], references: [id])
+  quantity  Int
+  unitPrice Float
+
+  @@index([orderId])
+}
+
+model InventoryItem {
+  productId      String  @id
+  product        Product @relation(fields: [productId], references: [id])
+  onHand         Int
+  reorderPoint   Int
+  allocated      Int
+  lastReceivedAt String // YYYY-MM-DD
+}
+
+/// Audit trail: one row per review decision. The latest row is the order's current status.
+model ReviewEvent {
+  id         Int      @id @default(autoincrement())
+  orderId    String
+  order      Order    @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  fromStatus String? // status before this decision (pending | approved | held | escalated)
+  toStatus   String // approved | held | escalated
+  reviewer   String
+  note       String
+  source     String   @default("app") // seed | app
+  createdAt  DateTime @default(now())
+
+  @@index([orderId, createdAt])
+}
+
+/// Persisted rule configuration (enabled + threshold); everything else comes from code defaults.
+model RuleSetting {
+  id        String   @id // RuleId
+  enabled   Boolean
+  threshold Float
+  updatedAt DateTime @updatedAt
+}

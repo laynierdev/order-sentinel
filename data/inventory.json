@@ -1,0 +1,177 @@
+[
+  {
+    "productId": "PRD-001",
+    "onHand": 1255,
+    "reorderPoint": 477,
+    "allocated": 128,
+    "lastReceivedAt": "2026-10-30"
+  },
+  {
+    "productId": "PRD-002",
+    "onHand": 736,
+    "reorderPoint": 241,
+    "allocated": 65,
+    "lastReceivedAt": "2026-11-21"
+  },
+  {
+    "productId": "PRD-003",
+    "onHand": 1265,
+    "reorderPoint": 399,
+    "allocated": 121,
+    "lastReceivedAt": "2026-11-13"
+  },
+  {
+    "productId": "PRD-004",
+    "onHand": 91,
+    "reorderPoint": 186,
+    "allocated": 13,
+    "lastReceivedAt": "2026-11-17"
+  },
+  {
+    "productId": "PRD-005",
+    "onHand": 89,
+    "reorderPoint": 128,
+    "allocated": 8,
+    "lastReceivedAt": "2026-11-19"
+  },
+  {
+    "productId": "PRD-006",
+    "onHand": 423,
+    "reorderPoint": 146,
+    "allocated": 56,
+    "lastReceivedAt": "2026-11-05"
+  },
+  {
+    "productId": "PRD-007",
+    "onHand": 553,
+    "reorderPoint": 252,
+    "allocated": 35,
+    "lastReceivedAt": "2026-11-13"
+  },
+  {
+    "productId": "PRD-008",
+    "onHand": 820,
+    "reorderPoint": 327,
+    "allocated": 96,
+    "lastReceivedAt": "2026-11-21"
+  },
+  {
+    "productId": "PRD-009",
+    "onHand": 357,
+    "reorderPoint": 200,
+    "allocated": 34,
+    "lastReceivedAt": "2026-11-17"
+  },
+  {
+    "productId": "PRD-010",
+    "onHand": 420,
+    "reorderPoint": 234,
+    "allocated": 21,
+    "lastReceivedAt": "2026-10-31"
+  },
+  {
+    "productId": "PRD-011",
+    "onHand": 550,
+    "reorderPoint": 220,
+    "allocated": 42,
+    "lastReceivedAt": "2026-11-21"
+  },
+  {
+    "productId": "PRD-012",
+    "onHand": 164,
+    "reorderPoint": 58,
+    "allocated": 10,
+    "lastReceivedAt": "2026-11-12"
+  },
+  {
+    "productId": "PRD-013",
+    "onHand": 118,
+    "reorderPoint": 72,
+    "allocated": 7,
+    "lastReceivedAt": "2026-11-08"
+  },
+  {
+    "productId": "PRD-014",
+    "onHand": 117,
+    "reorderPoint": 64,
+    "allocated": 9,
+    "lastReceivedAt": "2026-11-17"
+  },
+  {
+    "productId": "PRD-015",
+    "onHand": 995,
+    "reorderPoint": 405,
+    "allocated": 149,
+    "lastReceivedAt": "2026-11-05"
+  },
+  {
+    "productId": "PRD-016",
+    "onHand": 719,
+    "reorderPoint": 283,
+    "allocated": 90,
+    "lastReceivedAt": "2026-11-08"
+  },
+  {
+    "productId": "PRD-017",
+    "onHand": 809,
+    "reorderPoint": 439,
+    "allocated": 90,
+    "lastReceivedAt": "2026-11-16"
+  },
+  {
+    "productId": "PRD-018",
+    "onHand": 624,
+    "reorderPoint": 196,
+    "allocated": 70,
+    "lastReceivedAt": "2026-11-09"
+  },
+  {
+    "productId": "PRD-019",
+    "onHand": 984,
+    "reorderPoint": 311,
+    "allocated": 97,
+    "lastReceivedAt": "2026-11-16"
+  },
+  {
+    "productId": "PRD-020",
+    "onHand": 1179,
+    "reorderPoint": 666,
+    "allocated": 95,
+    "lastReceivedAt": "2026-11-02"
+  },
+  {
+    "productId": "PRD-021",
+    "onHand": 522,
+    "reorderPoint": 217,
+    "allocated": 46,
+    "lastReceivedAt": "2026-11-17"
+  },
+  {
+    "productId": "PRD-022",
+    "onHand": 32,
+    "reorderPoint": 65,
+    "allocated": 4,
+    "lastReceivedAt": "2026-11-21"
+  },
+  {
+    "productId": "PRD-023",
+    "onHand": 315,
+    "reorderPoint": 133,
+    "allocated": 28,
+    "lastReceivedAt": "2026-11-13"
+  },
+  {
+    "productId": "PRD-024",
+    "onHand": 84,
+    "reorderPoint": 42,
+    "allocated": 6,
+    "lastReceivedAt": "2026-11-17"
+  },
+  {
+    "productId": "PRD-025",
+    "onHand": 477,
+    "reorderPoint": 157,
+    "allocated": 45,
+    "lastReceivedAt": "2026-11-01"
+  }
+]
